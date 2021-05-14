@@ -1,10 +1,19 @@
-import './App.css';
-import AddABook from './components/add-a-book/addABook'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "./App.css";
+import AddABook from "./components/add-a-book/AddABook";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Dashboard from "./components/dashboard/Dashboard";
+import { useState } from "react";
+import { BrowserRouter as Router, Switch, Route, Link, withRouter } from "react-router-dom";
 
 function App() {
   return (
-    <AddABook />
+    <Router>
+      <Switch>
+        <Route exact path="/" component={withRouter(Dashboard)} />
+        <Route exact path="/book" component={withRouter(AddABook)} />
+        <Route exact path="/book/:id" component={withRouter(AddABook)} />
+      </Switch>
+    </Router>
   );
 }
 
