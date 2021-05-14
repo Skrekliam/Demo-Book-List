@@ -6,21 +6,13 @@ import {
   ButtonGroup,
   Jumbotron,
   Col,
-  Row,
   Container,
 } from "react-bootstrap";
 import {
   BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  useRouteMatch,
-  useParams,
+  Link
 } from "react-router-dom";
-import App from "../../App";
-import AddABook from "../add-a-book/AddABook";
-
-const ip = '192.168.1.2'; 
+import ip from "../../consts";
 
 export default function Dashboard(props) {
   const [data, setData] = useState([]);

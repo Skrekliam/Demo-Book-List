@@ -6,22 +6,14 @@ import {
   Col,
   Button,
   InputGroup,
-  Alert,
   Container,
 } from "react-bootstrap";
 import {
   BrowserRouter as Router,
-  Switch,
-  Route,
   Link,
-  useRouteMatch,
-  useParams,
 } from "react-router-dom";
 import GenresList from "./GenreLists";
-import App from "../../App";
-import Dashboard from "../dashboard/Dashboard";
-
-const ip = "192.168.1.2";
+import ip from "../../consts";
 
 export default function AddABook({ match }) {
   const [bTitle, setbTitle] = useState("");
@@ -124,7 +116,7 @@ export default function AddABook({ match }) {
       </Col>
       <Container>
         <h1>{edit ? "Edit book" : "Add new book"}</h1>
-        
+
         <Col xl={12}>
           <br />
           <br />
