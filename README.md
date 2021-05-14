@@ -2,6 +2,35 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Quick start
+
+## 1. Clone repo
+
+### `git clone https://github.com/Skrekliam/Demo-Book-List.git`
+
+## 2. Change directory
+
+### `cd demo-book-list`
+
+## 3. Install dependencies
+
+### `npm i`
+
+## 4 Set ip address for json server(default is `192.168.1.2`) you can change it to `localhost`
+
+### Open ./src/consts.js
+
+## 5. Run project
+
+### `npm start`
+
+## 6. Run json server
+
+### `json-server db.js --port 3001 --host <ip from consts.js>`
+
+## Open your browser and be happy 😃
+
+
 ## Available Scripts
 
 In the project directory, you can run:
