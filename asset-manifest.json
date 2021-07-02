@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Demo-Book-List/static/css/main.7274834a.chunk.css",
+    "main.js": "/Demo-Book-List/static/js/main.ce692ab6.chunk.js",
+    "main.js.map": "/Demo-Book-List/static/js/main.ce692ab6.chunk.js.map",
+    "runtime-main.js": "/Demo-Book-List/static/js/runtime-main.9b7bd79c.js",
+    "runtime-main.js.map": "/Demo-Book-List/static/js/runtime-main.9b7bd79c.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/Demo-Book-List/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.94f05b86.chunk.js": "/Demo-Book-List/static/js/2.94f05b86.chunk.js",
+    "static/js/2.94f05b86.chunk.js.map": "/Demo-Book-List/static/js/2.94f05b86.chunk.js.map",
+    "static/js/3.4882f6e6.chunk.js": "/Demo-Book-List/static/js/3.4882f6e6.chunk.js",
+    "static/js/3.4882f6e6.chunk.js.map": "/Demo-Book-List/static/js/3.4882f6e6.chunk.js.map",
+    "index.html": "/Demo-Book-List/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/Demo-Book-List/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.7274834a.chunk.css.map": "/Demo-Book-List/static/css/main.7274834a.chunk.css.map",
+    "static/js/2.94f05b86.chunk.js.LICENSE.txt": "/Demo-Book-List/static/js/2.94f05b86.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9b7bd79c.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.94f05b86.chunk.js",
+    "static/css/main.7274834a.chunk.css",
+    "static/js/main.ce692ab6.chunk.js"
+  ]
+}
